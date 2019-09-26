@@ -1,2 +1,5 @@
 venv/*
 *.pyc
+/.venv
+/.vscode/settings.json
+/db.sqlite3
