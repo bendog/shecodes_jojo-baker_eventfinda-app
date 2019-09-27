@@ -6,7 +6,7 @@
 
 {% load crispy_forms_tags %}
 <form action="" method="post">
-    {{ form.media }}
+    {{ eventform.media }}
     {% csrf_token %}
     {{ eventform|crispy }}
     <input type="submit" value="Submit">
